@@ -1,18 +1,9 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue';
+import UserList from '@/components/UserList.vue';
 </script>
 
 <template>
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue"
-    /></a>
-  </div>
-  <h1>This boilerplate for initialize project</h1>
-  <HelloWorld msg="International Road Dynamics" />
+  <UserList></UserList>
 </template>
 
 <style scoped>
